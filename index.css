@@ -1,0 +1,376 @@
+*{
+    padding:0;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+    border: border-box;
+}
+
+.logo{
+    display: flex;
+    
+}
+.logo h2{
+    padding:15px 5px;
+}
+.logo img{
+    width:45px;
+    height:45px;
+    padding :5px;
+}
+.wave{
+    color:#fff;
+    display: flex;
+    margin-top: 40px;;
+}
+.home{
+    display: flex;
+    
+    
+    margin-left: 240px;;
+    top:21px;
+    
+}
+h3{
+    display: flex;
+    margin-left: 75px;
+    margin-top: -35px;;
+    justify-content: space-between;
+    
+    
+    
+}
+button{
+    background-color: deepskyblue;
+    width:79px;
+    font-size: 15px;;
+    border-radius: 5px;;
+    height:30px;
+    border: none;
+    margin-left:45px ;
+    margin-top: -35px;;
+
+}
+button:hover{
+    color:black;
+    background-color:hotpink;
+}
+h3:hover{
+text-decoration: underline 2.5px solid palevioletred;
+}
+
+
+
+.login{
+    display: flex;
+}
+.img{
+    background: linear-gradient(rgba(18, 17, 17, 0.8),rgba(0,0,3,0.3)),url("pexels-chan-walrus-958545.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 450px;
+
+    overflow: hidden;
+}
+.wave{
+color:#fff;
+position: absolute;
+top:240px;
+
+}
+.Biryani h2{
+    
+    color:white;
+    width:350px;
+    height:25px;
+margin-left:150px;
+    margin-top:90px;
+
+}
+.spicy p{
+    width:400px;
+    height:50px;
+    margin-top:30px;
+    color:whitesmoke;
+    margin-left: 150px;;
+}
+.start{
+    background-color: palevioletred;
+    margin-left: 65%;
+    margin-top: -65px;
+    width:120px;
+    border-radius: 15px;
+}
+.start:hover{
+    background-color: aquamarine;
+    color:black;
+}
+.start button{
+    margin-top: -75px;;
+}
+.main-box{
+display: flex;
+justify-content: space-around;
+}
+
+.box1{
+width: 300px;
+height: 310px; 
+left:50px;
+box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.4), 0 12px 5px 4px rgba(0,0,0,0.4);
+
+}
+
+.box1 img{
+    width: 250px;
+    height:230px;
+    border-radius: 50%;
+    position: relative;
+    left:25px;
+    top:25px;
+}
+.box1 h3{
+    color:black;
+position: relative;
+
+font-family: sans-serif;
+top:83px;
+left:-45px;
+
+
+
+}
+
+.rating img{
+    color:black;
+    width:45px;
+    height:45px;
+    
+
+}
+.box2{
+
+    width: 300px;
+    height: 310px;
+    left:50px;
+    box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.4), 0 12px 5px 4px rgba(0,0,0,0.4);
+}
+.img-2 img {
+    width:250px;
+    height:220px;
+    border-radius: 50%;
+    position: relative;
+    top:25px;
+    left:15px;
+}
+.rating-box2 img {
+    width:55px;
+    height:55px;
+    position: relative;
+
+    left:35px;
+}
+.special-biryani h3{
+    color:black;
+    position: relative;
+
+font-family: sans-serif;
+top:30px;
+left:-45px;
+}
+
+.box3{
+
+width: 300px;
+height: 310px;
+left:50px;
+box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.4), 0 12px 5px 4px rgba(0,0,0,0.4);
+
+}
+.box3-img img{
+    width:250px;
+    height:220px;
+    border-radius: 50%;
+    position: relative;
+    top:25px;
+    left:15px;
+}
+.rating-box3 img{
+    color:black;
+    width:55px;
+    height:55px;
+    position: relative;
+
+    left:35px;
+    
+}
+.chicken-rost h3{
+    color:black;
+    position: relative;
+
+font-family: sans-serif;
+top:30px;
+left:-45px;
+}
+.layer-boxs{
+    display:flex;
+    justify-content: space-around;
+}
+.box-4,.box-5,.box-6{
+    
+    width: 300px;
+    height: 310px;
+    
+    
+    box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.4), 0 12px 5px 4px rgba(0,0,0,0.4);
+}
+.box4-img img{
+    width:250px;
+    height:220px;
+    border-radius: 50%;
+    position: relative;
+    top:25px;
+    left:15px;
+}
+.box5-img img{
+    width:250px;
+    height:220px;
+    border-radius: 50%;
+    position: relative;
+    top:25px;
+    left:15px;
+}
+.box6-img img{
+    width:250px;
+    height:220px;
+    border-radius: 50%;
+    position: relative;
+    top:25px;
+    left:15px;
+}
+.rating-4 img{
+    
+    width:55px;
+    height:55px;
+    position: relative;
+
+    left:35px;
+}
+.rating-5 img{
+    width:55px;
+    height:55px;
+    position: relative;
+
+    left:35px;
+}
+.rating-6 img{
+    width:55px;
+    height:55px;
+    position: relative;
+
+    left:35px;
+}
+.box4-biryani h3{
+    color:black;
+    position: relative;
+
+font-family: sans-serif;
+top:30px;
+left:-45px;
+}
+.box5-biryani h3{
+    color:black;
+    position: relative;
+
+font-family: sans-serif;
+top:30px;
+left:-45px;
+}
+.box6-biryani h3{
+    color:black;
+    position: relative;
+
+font-family: sans-serif;
+top:30px;
+left:-45px;
+}
+.bottom{
+    width:100%;
+    height:250px;
+    display: flex;
+    bottom: 120px;;
+    background-color: #273036;
+    
+    
+}
+
+.footter-help h2, p{
+    margin-left: 15px;
+    padding-left: 15px;;
+    padding-top: 10px;;
+}
+.footter-help p{
+    margin-left: 15px;
+    
+}
+.content,h1,p{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.copy p{
+    position: relative;
+    bottom: -210px;
+    font-size: 10px;
+}
+.bottom-sign
+{
+    
+    
+    width:300px;
+    height:35px;
+    margin-top: 135px;
+    margin-left: 150px;
+    
+    background-color: white;
+    
+    
+
+}
+.bottom-sign input{
+    
+    width:99%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.bt-sign {
+    color:black;
+    
+    height: 100%;
+    width: 25%;
+    margin-left: 55px;
+
+    
+    background-color: rgb(138, 101, 31);
+}
+.bt-sign h5{
+    color:black;
+    
+    width:155px;
+    height:25px;
+    
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+.Email-bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
