@@ -1,0 +1,120 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color:black;
+    padding:0px;
+    position:absolute;
+    
+    top:40px;
+    left:250px;
+
+
+
+}
+
+.to-do{
+    top:450px;
+    background-color: rgb(29, 182, 179);
+    margin: 25px;
+    padding: 25px 25px ;
+    box-shadow: 0 0 19px black;
+    width: 100%;
+    max-width: 480px;
+    border-radius: 25px;
+    display:  flex;
+}
+.input-list{
+    
+    margin:0;
+    border:none;
+    width:65%;
+    height: 75%;
+
+}
+.input-list .placeholder{
+margin-left: 15px;
+}
+.input-list input{
+    border: none;
+    width:120%;
+    height: 3em;
+    border-radius: 25px;
+    box-shadow: 0 0 2px;
+    padding: 15px 10px ;
+    border:2px solid white;
+    
+}
+.input-list input:focus
+{
+    outline: none;
+    border-color: rgb(47, 169, 203);
+}
+.to-add button{
+    margin-left: 65px;
+    
+    width:120px;
+    height:3em;
+    background-color: rgb(36, 186, 216);
+    border: none;
+    border-radius: 5px;
+}
+button{
+    content: "";
+    border:whitesmoke;
+    box-shadow: 0 0 2px;
+    cursor: pointer;
+}
+
+#tasks{
+    background-color: white;
+    width:100%;
+    margin-left: 25px;
+    
+    padding:30px 20px;
+    border-radius: 10px;
+    
+
+}
+
+.task{
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.task span{
+    font-size: 15px;;
+    font-weight: 300;
+    cursor: pointer;
+}
+.task{
+    background-color: white;
+    width:350px;
+    height:45px;
+    margin: 25px;
+    padding:5px 10px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 2px solid;
+    
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+.task button{
+    border: none;
+    background: rgb(36, 186, 216);;
+    height: 30px;
+    width:55px;
+    margin-top: 2px;
+    font-size:15px;
+    margin-left: 250px;
+    cursor: pointer;
+}
